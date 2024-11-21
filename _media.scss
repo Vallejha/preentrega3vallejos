@@ -1,0 +1,27 @@
+@media (max-width: 550px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li{
+        margin: 5px 0;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    main .galeria{
+        padding: 15px;
+    }
+    }

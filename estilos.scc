@@ -1,0 +1,150 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px;
+  background-image: url(img/fondo\ naranja.jpeg);
+  color: rgb(235, 215, 235);
+  text-align: center;
+  padding-top: 20px;
+}
+
+nav {
+  background-color: rgb(120, 131, 120);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e7dede;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: url(img/fondo\ naranja.jpeg);
+  padding: 30px;
+  flex: 1;
+}
+
+.tarjeta {
+  width: 600px;
+  background-color: #e9dbdb;
+  border-radius: 5px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.921);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tarjeta img {
+  max-width: 90%;
+  border-radius: 5px;
+}
+.tarjeta p {
+  color: rgb(77, 71, 77);
+}
+
+.tarjeta1 {
+  width: 400px;
+  background-color: #e9dbdb;
+  border-radius: 5px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.921);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tarjeta1 img {
+  max-width: 90%;
+  border-radius: 5px;
+}
+.tarjeta1 p {
+  color: rgb(77, 71, 77);
+}
+.tarjeta1 button {
+  background-color: rgb(94, 94, 237);
+  color: #fff;
+  border: none;
+  padding: 6px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.tarjeta1 button:hover {
+  background-color: rgb(28, 177, 197);
+}
+.tarjeta1 .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(227, 236, 227);
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  padding: 2%;
+  border-radius: 8px;
+}
+.tarjeta1 .form label {
+  color: rgb(52, 47, 47);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(120, 131, 120);
+  color: #fff;
+}
+
+footer .icons {
+  display: flex;
+  gap: 10px;
+}
+footer .icons a {
+  display: flex;
+  align-items: center;
+}
+footer .icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
+footer .icons:hover {
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=estilos.scc.map */

@@ -1,0 +1,187 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px;
+  background-image: url(img/fondo\ celeste.jpeg);
+  color: rgb(50, 48, 50);
+  text-align: center;
+  padding-top: 20px;
+  background-size: cover;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  animation-name: colores;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  z-index: 0;
+}
+@keyframes colores {
+  0%, 100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+nav {
+  background-color: rgb(87, 119, 87);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e7dede;
+}
+
+header img {
+  width: 250px;
+  height: 250px;
+  float: right;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: url(img/fondo\ naranja.jpeg);
+  padding: 30px;
+  flex: 1;
+}
+
+.tarjeta {
+  width: 300px;
+  background-color: #e9dbdb;
+  border-radius: 5px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.921);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tarjeta img {
+  max-width: 90%;
+  border-radius: 5px;
+}
+.tarjeta p {
+  color: rgb(77, 71, 77);
+}
+
+.tarjeta1 {
+  width: 400px;
+  background-color: #e9dbdb;
+  border-radius: 5px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.921);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tarjeta1 img {
+  max-width: 90%;
+  border-radius: 5px;
+}
+.tarjeta1 p {
+  color: rgb(77, 71, 77);
+}
+.tarjeta1 button {
+  background-color: rgb(94, 94, 237);
+  color: #fff;
+  border: none;
+  padding: 6px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.tarjeta1 button:hover {
+  background-color: rgb(28, 177, 197);
+}
+.tarjeta1 .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(227, 236, 227);
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  padding: 2%;
+  border-radius: 8px;
+}
+.tarjeta1 .form label {
+  color: rgb(52, 47, 47);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(87, 119, 87);
+  color: #fff;
+}
+
+footer .icons {
+  display: flex;
+  gap: 10px;
+}
+footer .icons a {
+  display: flex;
+  align-items: center;
+}
+footer .icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+}
+footer .icons:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 550px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin: 5px 0;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  section {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  main .galeria {
+    padding: 15px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

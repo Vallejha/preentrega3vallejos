@@ -1,0 +1,55 @@
+header
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0 20px;
+background-image: url(img/fondo\ celeste.jpeg);
+color: $color_letra;
+text-align: center;
+padding-top: 20px;
+
+background-size: cover;
+background-position: 0 100%;
+background-repeat: no-repeat;
+
+animation-name: colores;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+z-index: 0;
+
+@keyframes colores{
+   0%,100%{
+      filter: hue-rotate(0deg);
+   }
+   50%{
+      filter: hue-rotate(360deg);
+   }
+}
+}
+nav
+{
+background-color: $color_fondo;
+}
+nav ul
+{
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: center;
+margin: 0;
+}
+nav li
+{
+margin: 0 15px;
+}
+nav a
+{
+text-decoration: none;
+color: #e7dede;
+}
+header img{
+    width: 250px;
+    height: 250px;
+    float: right;
+}

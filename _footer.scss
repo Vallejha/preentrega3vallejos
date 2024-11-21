@@ -1,0 +1,28 @@
+footer
+{
+display: flex;
+justify-content:center;
+align-items: center;
+padding: 10px 20px;
+background-color: $color_fondo;
+color: #fff;
+}
+
+footer .icons
+{
+display: flex;
+gap: 10px;
+      a{
+        display: flex;
+        align-items: center;
+      }
+      img{
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
+      }
+      &:hover{
+        opacity: 0.8;
+      }
+}
+
